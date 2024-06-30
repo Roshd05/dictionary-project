@@ -15,17 +15,18 @@ export default function App() {
 
         <footer>
           This project was coded by{" "}
-          <a href="https://github.com/Roshd05" target="_blank">
+          <a href="https://github.com/Roshd05" rel="noopener">
             Roshni Daryanani{" "}
           </a>
           is{" "}
           <a
             href="https://github.com/Roshd05/dictionary-project"
-            target="_blank">
+            rel="noopener"
+          >
             Open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="https://dictionaryproject-rd.netlify.app" target="_blank">
+          <a href="https://dictionaryproject-rd.netlify.app" rel="noopener">
             Hosted on Netlify
           </a>
         </footer>
@@ -33,4 +34,4 @@ export default function App() {
     </div>
   );
   }
-  
+
