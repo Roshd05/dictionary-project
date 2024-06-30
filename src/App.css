@@ -4,7 +4,13 @@ body {
   background: rgb(143, 173, 225);
 }
 
+header {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-bottom: 30px;
 
+}
 footer {
   margin: 90px;
   text-align: center;

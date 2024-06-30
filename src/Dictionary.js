@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Dictionary() {
-  let [keyWord, setKeyword] = useState(null);
+   let [keyWord, setKeyword] = useState("");
 
   function search(event) {
     event.preventDefault();
@@ -15,10 +15,8 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="search" placeholder="Enter-text"  onChange={handleKeywordchange} />
-        <input type="button" className="btn btn-primary">
-          Search
-        </input>
+        <input type="search" onChange={handleKeywordchange} />
+
       </form>
     </div>
   );
