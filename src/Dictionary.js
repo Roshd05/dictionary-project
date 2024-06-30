@@ -11,7 +11,6 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyWord} definition`);
 
   let apiKey = "840df5b063f365oba39tb282d8c1d0cc";
   let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=sunset&key=840df5b063f365oba39tb282d8c1d0cc`;
