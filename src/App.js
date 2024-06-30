@@ -12,17 +12,20 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
+        
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/Roshd05" target="_blank">
             Roshni Daryanani{" "}
           </a>
           is{" "}
-          <a href="https://github.com/Roshd05/weather-homework" target="_blank">
+          <a
+            href="https://github.com/Roshd05/dictionary-project"
+            target="_blank">
             Open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="https://clima-roshni.netlify.app" target="_blank">
+          <a href="https://dictionaryproject-rd.netlify.app" target="_blank">
             Hosted on Netlify
           </a>
         </footer>
