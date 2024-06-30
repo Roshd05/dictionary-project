@@ -12,7 +12,7 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        
+
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/Roshd05" target="_blank">
@@ -32,6 +32,5 @@ export default function App() {
       </div>
     </div>
   );
-}
-
-
+  }
+  
