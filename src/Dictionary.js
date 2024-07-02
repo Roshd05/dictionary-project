@@ -20,13 +20,13 @@ export default function Dictionary() {
 
   function search() {
     // documentation:https://dictionaryapi.dev
-    let apiKey = `a4cf7a5b0a77537beftcb4bo13d400ab`;
+    let apiKey = `840df5b063f365oba39tb282d8c1d0cc`;
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=${apiKey}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
     let pexelsApiKey =
       "bgKpPq39LCUXKpLoyX4JZAc3PjRDYhGpVxMMJxVO9H6dCc8UUFwTZXd5";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=9`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=6`;
     let headers = { Authorization: `${pexelsApiKey}` };
 
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
@@ -49,7 +49,7 @@ export default function Dictionary() {
     return (
       <div className="Dictionary">
         <section>
-          <h1>Search for Anything!</h1>
+          <h1>Search for Anything you Want!</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
